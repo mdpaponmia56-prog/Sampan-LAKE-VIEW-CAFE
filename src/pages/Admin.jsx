@@ -140,9 +140,9 @@ export default function Admin() {
         <header className="p-6 flex items-center justify-between relative z-10 max-w-6xl mx-auto w-full">
           <div className="flex items-center gap-3">
             <img
-              src="https://media.db.com/images/public/user_6a708fb2b9806dc02d51a56a/e310c872b_497503132_122105925272862296_7443416267114685548_n.jpg"
+              src="/images/sampan-logo.jpg"
               alt="Sampan Logo"
-              className="w-10 h-10 rounded-full border border-[#C5A059]/60 object-cover"
+              className="w-10 h-10 rounded-full border border-[#C5A059]/60 object-cover bg-white shadow"
             />
             <div>
               <span className="font-display text-lg text-gradient-gold">Sampan</span>
@@ -313,9 +313,9 @@ export default function Admin() {
           <div className="p-6 border-b border-[#C5A059]/15 flex items-center justify-between">
             <div className="flex items-center gap-3">
               <img
-                src="https://media.db.com/images/public/user_6a708fb2b9806dc02d51a56a/e310c872b_497503132_122105925272862296_7443416267114685548_n.jpg"
+                src="/images/sampan-logo.jpg"
                 alt="Logo"
-                className="w-10 h-10 rounded-full border border-[#C5A059] object-cover"
+                className="w-10 h-10 rounded-full border border-[#C5A059] object-cover bg-white shadow"
               />
               <div>
                 <div className="font-display text-base text-gradient-gold font-bold">SAMPAN</div>

@@ -241,9 +241,9 @@ export default function OrdersManager() {
             <div className="flex items-center justify-between border-b border-[#C5A059]/20 pb-4">
               <div className="flex items-center gap-3">
                 <img
-                  src="https://media.db.com/images/public/user_6a708fb2b9806dc02d51a56a/e310c872b_497503132_122105925272862296_7443416267114685548_n.jpg"
+                  src="/images/sampan-logo.jpg"
                   alt="Logo"
-                  className="w-10 h-10 rounded-full border border-[#C5A059]"
+                  className="w-10 h-10 rounded-full border border-[#C5A059] object-cover bg-white shadow"
                 />
                 <div>
                   <h3 className="font-display text-lg text-gradient-gold">Sampan Lake View Cafe</h3>

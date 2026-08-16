@@ -1349,14 +1349,6 @@
   },
   "securityLogs": [
     {
-      "id": "sec-1786868018254",
-      "action": "BACKUP_CREATED",
-      "user": "System",
-      "ip": "127.0.0.1",
-      "details": "Created database backup snapshot: store-backup-SYSTEM_BOOT-2026-08-16T08-13-38-253Z.json",
-      "timestamp": "2026-08-16T08:13:38.254Z"
-    },
-    {
       "id": "sec-1786809073455",
       "action": "BACKUP_CREATED",
       "user": "System",

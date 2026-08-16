@@ -52,9 +52,9 @@ export default function Navbar() {
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3 group">
               <img
-                src="https://media.db.com/images/public/user_6a708fb2b9806dc02d51a56a/e310c872b_497503132_122105925272862296_7443416267114685548_n.jpg"
+                src="/images/sampan-logo.jpg"
                 alt="Sampan Lake View Cafe"
-                className="w-12 h-12 rounded-full object-cover border-2 border-[#C5A059] group-hover:border-[#E8C87A] transition-all duration-300"
+                className="w-12 h-12 rounded-full object-cover border-2 border-[#C5A059] group-hover:border-[#E8C87A] transition-all duration-300 shadow-md bg-white"
               />
               <div className="hidden sm:block">
                 <div className="font-display text-xl font-semibold text-gradient-gold leading-tight">

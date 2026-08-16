@@ -26,9 +26,9 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-5">
               <img
-                src="https://media.db.com/images/public/user_6a708fb2b9806dc02d51a56a/e310c872b_497503132_122105925272862296_7443416267114685548_n.jpg"
+                src="/images/sampan-logo.jpg"
                 alt="Sampan Lake View Cafe"
-                className="w-14 h-14 rounded-full object-cover border-2 border-[#C5A059]/50"
+                className="w-14 h-14 rounded-full object-cover border-2 border-[#C5A059]/50 shadow-lg bg-white"
               />
               <div>
                 <div className="font-display text-xl text-gradient-gold">Sampan</div>
