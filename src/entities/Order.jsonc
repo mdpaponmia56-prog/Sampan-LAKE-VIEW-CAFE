@@ -1,0 +1,95 @@
+{
+  "name": "Order",
+  "type": "object",
+  "properties": {
+    "customerName": {
+      "type": "string",
+      "title": "Customer Name"
+    },
+    "customerPhone": {
+      "type": "string",
+      "title": "Customer Phone"
+    },
+    "customerEmail": {
+      "type": "string",
+      "title": "Customer Email"
+    },
+    "items": {
+      "type": "array",
+      "title": "Order Items",
+      "items": {
+        "type": "object"
+      }
+    },
+    "subtotal": {
+      "type": "number",
+      "title": "Subtotal",
+      "default": 0
+    },
+    "deliveryFee": {
+      "type": "number",
+      "title": "Delivery Fee",
+      "default": 0
+    },
+    "total": {
+      "type": "number",
+      "title": "Total",
+      "default": 0
+    },
+    "orderType": {
+      "type": "string",
+      "title": "Order Type",
+      "enum": [
+        "delivery",
+        "pickup",
+        "dinein"
+      ],
+      "default": "delivery"
+    },
+    "address": {
+      "type": "string",
+      "title": "Delivery Address"
+    },
+    "notes": {
+      "type": "string",
+      "title": "Notes"
+    },
+    "status": {
+      "type": "string",
+      "title": "Status",
+      "enum": [
+        "pending",
+        "confirmed",
+        "preparing",
+        "ready",
+        "delivered",
+        "cancelled"
+      ],
+      "default": "pending"
+    }
+  },
+  "required": [
+    "customerName",
+    "customerPhone",
+    "items",
+    "total"
+  ],
+  "rls": {
+    "read": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "create": {},
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

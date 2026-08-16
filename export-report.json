@@ -1,0 +1,45 @@
+{
+  "exportedAt": "2026-08-14T17:27:53.406Z",
+  "exportDurationMs": 25229,
+  "fileCount": 115,
+  "assetCount": 6,
+  "resolvedAssetCount": 0,
+  "missingAssets": [
+    {
+      "url": "https://media.db.com/images/public/6a709030d676bd6178ead433/abfd068a9_generated_8ebdb7d0.png",
+      "error": "Failed to fetch"
+    },
+    {
+      "url": "https://media.db.com/images/public/user_6a708fb2b9806dc02d51a56a/b5b2a5632_653263963_122162023586862296_4594714457248011881_n.jpg",
+      "error": "Failed to fetch"
+    },
+    {
+      "url": "https://media.db.com/images/public/6a709030d676bd6178ead433/91a351ef7_generated_ecbcae92.png",
+      "error": "Failed to fetch"
+    },
+    {
+      "url": "https://media.db.com/images/public/user_6a708fb2b9806dc02d51a56a/e310c872b_497503132_122105925272862296_7443416267114685548_n.jpg",
+      "error": "Failed to fetch"
+    },
+    {
+      "url": "https://media.db.com/images/public/user_6a708fb2b9806dc02d51a56a/2758960ab_653721489_122162023628862296_8788754229519454734_n.jpg",
+      "error": "Failed to fetch"
+    },
+    {
+      "url": "https://media.db.com/images/public/6a709030d676bd6178ead433/f3b016c0b_generated_0cbc57a8.png",
+      "error": "Failed to fetch"
+    }
+  ],
+  "warnings": [
+    "Preview iframe scan failed: Failed to read a named property 'document' from 'Window': Blocked a frame with origin \"https://app.base44.com\" from accessing a cross-origin frame."
+  ],
+  "diagnostics": {
+    "exportState": "BUILDING_FILE_TREE",
+    "assetCount": 6,
+    "pendingFetches": 0,
+    "pendingImages": 0,
+    "domNodeCount": 4133,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "exportDurationMs": 25229
+  }
+}

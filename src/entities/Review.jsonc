@@ -1,0 +1,61 @@
+{
+  "name": "Review",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "Reviewer Name"
+    },
+    "rating": {
+      "type": "number",
+      "title": "Rating (1-5)",
+      "minimum": 1,
+      "maximum": 5,
+      "default": 5
+    },
+    "text": {
+      "type": "string",
+      "title": "Review Text"
+    },
+    "status": {
+      "type": "string",
+      "title": "Status",
+      "enum": [
+        "pending",
+        "approved",
+        "rejected"
+      ],
+      "default": "pending"
+    }
+  },
+  "required": [
+    "name",
+    "rating",
+    "text"
+  ],
+  "rls": {
+    "read": {
+      "$or": [
+        {
+          "data.status": "approved"
+        },
+        {
+          "user_condition": {
+            "role": "admin"
+          }
+        }
+      ]
+    },
+    "create": {},
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}

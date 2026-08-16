@@ -1,0 +1,74 @@
+{
+  "name": "MenuItem",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "title": "Name (English)"
+    },
+    "nameBn": {
+      "type": "string",
+      "title": "Name (Bengali)"
+    },
+    "category": {
+      "type": "string",
+      "title": "Category"
+    },
+    "price": {
+      "type": "number",
+      "title": "Price (\u09f3)"
+    },
+    "description": {
+      "type": "string",
+      "title": "Description"
+    },
+    "image": {
+      "type": "string",
+      "title": "Image URL",
+      "format": "uri"
+    },
+    "popular": {
+      "type": "boolean",
+      "title": "Popular",
+      "default": false
+    },
+    "chefPick": {
+      "type": "boolean",
+      "title": "Chef's Pick",
+      "default": false
+    },
+    "available": {
+      "type": "boolean",
+      "title": "Available",
+      "default": true
+    },
+    "sortOrder": {
+      "type": "number",
+      "title": "Sort Order",
+      "default": 0
+    }
+  },
+  "required": [
+    "name",
+    "category",
+    "price"
+  ],
+  "rls": {
+    "read": {},
+    "create": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "update": {
+      "user_condition": {
+        "role": "admin"
+      }
+    },
+    "delete": {
+      "user_condition": {
+        "role": "admin"
+      }
+    }
+  }
+}
